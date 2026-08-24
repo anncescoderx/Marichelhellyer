@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marichel Hellyer | Luxury & Residential Real Estate</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FDFBF7',
+                        warmcard: '#F5F2EB',
+                        oak: '#C4A482',
+                        darkoak: '#8C6D53',
+                        sandstone: '#E8E2D5',
+                        charcoal: '#4A4543'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-cream text-charcoal font-sans antialiased">
+
+    <!-- Header / Navigation -->
+    <header class="bg-cream/90 backdrop-blur-md sticky top-0 z-50 border-b border-sandstone">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-lg font-semibold tracking-widest text-darkoak">MARICHEL HELLYER</span>
+            <nav class="space-x-8 hidden md:flex text-sm font-medium text-charcoal/80">
+                <a href="#about" class="hover:text-darkoak transition">About</a>
+                <a href="#listings" class="hover:text-darkoak transition">Properties</a>
+                <a href="#contact" class="hover:text-darkoak transition">Contact</a>
+            </nav>
+            <a href="#contact" class="bg-darkoak text-white px-5 py-2.5 rounded-sm text-xs uppercase tracking-widest hover:bg-oak transition shadow-sm">Inquire</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-warmcard py-28 px-6 text-center bg-cover bg-center border-b border-sandstone" style="background-image: linear-gradient(rgba(253, 251, 247, 0.75), rgba(253, 251, 247, 0.75)), url('https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1920&q=80');">
+        <div class="max-w-3xl mx-auto">
+            <span class="text-xs uppercase tracking-[0.25em] text-darkoak font-semibold mb-3 block">Bespoke Real Estate Services</span>
+            <h1 class="text-4xl md:text-6xl font-light mb-6 tracking-tight text-charcoal">Curated Living Spaces & Timeless Homes</h1>
+            <p class="text-base text-charcoal/70 mb-10 font-light max-w-xl mx-auto leading-relaxed">Guiding you through your property journey with warmth, discretion, and deep market expertise.</p>
+            <div class="space-x-4">
+                <a href="#listings" class="bg-darkoak hover:bg-oak text-white text-xs uppercase tracking-widest font-medium px-8 py-3.5 rounded-sm transition shadow-sm inline-block">Explore Listings</a>
+                <a href="#contact" class="border border-darkoak text-darkoak hover:bg-warmcard text-xs uppercase tracking-widest font-medium px-8 py-3.5 rounded-sm transition inline-block">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+        <div class="relative">
+            <!-- Decorative subtle wood-tone border frame -->
+            <div class="absolute -inset-2 bg-sandstone/50 rounded-lg -z-10 transform -rotate-1"></div>
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" alt="Marichel Hellyer" class="rounded-lg shadow-sm object-cover h-[450px] w-full">
+        </div>
+        <div>
+            <span class="text-xs uppercase tracking-[0.2em] text-darkoak font-semibold mb-2 block">The Agent</span>
+            <h2 class="text-3xl font-light mb-6 text-charcoal">Rooted in Trust & Exceptional Service</h2>
+            <p class="text-charcoal/70 mb-4 leading-relaxed font-light">With an eye for architectural character and warm interiors, I specialize in finding homes that feel both luxurious and naturally inviting.</p>
+            <p class="text-charcoal/70 mb-8 leading-relaxed font-light">Whether you're looking to invest in a peaceful retreat or list a prominent property, I provide tailored, attentive service from consultation to closing.</p>
+            <div class="grid grid-cols-3 gap-6 text-center border-t border-sandstone pt-8">
+                <div>
+                    <span class="block text-2xl font-light text-darkoak">10+</span>
+                    <span class="text-[10px] tracking-widest text-charcoal/60 uppercase">Years Exp.</span>
+                </div>
+                <div>
+                    <span class="block text-2xl font-light text-darkoak">$50M+</span>
+                    <span class="text-[10px] tracking-widest text-charcoal/60 uppercase">Volume Sold</span>
+                </div>
+                <div>
+                    <span class="block text-2xl font-light text-darkoak">200+</span>
+                    <span class="text-[10px] tracking-widest text-charcoal/60 uppercase">Clients Served</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Listings Section -->
+    <section id="listings" class="bg-warmcard py-24 px-6 border-y border-sandstone">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-xs uppercase tracking-[0.2em] text-darkoak font-semibold mb-2 block">Portfolio</span>
+                <h2 class="text-3xl font-light mb-3 text-charcoal">Featured Properties</h2>
+                <p class="text-charcoal/60 font-light">Explore handpicked residential estates and modern sanctuaries.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Listing 1 -->
+                <div class="bg-cream rounded-sm overflow-hidden border border-sandstone shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Property" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <span class="text-darkoak font-medium text-lg block mb-1">$850,000</span>
+                        <h3 class="font-normal text-xl mb-2 text-charcoal">The Oakwood Residence</h3>
+                        <p class="text-charcoal/60 text-xs tracking-wide mb-6">4 Beds • 3.5 Baths • 3,200 Sq Ft</p>
+                        <a href="#contact" class="block text-center bg-warmcard text-darkoak border border-sandstone py-2.5 rounded-sm text-xs uppercase tracking-widest font-medium hover:bg-darkoak hover:text-white transition">Schedule a Tour</a>
+                    </div>
+                </div>
+
+                <!-- Listing 2 -->
+                <div class="bg-cream rounded-sm overflow-hidden border border-sandstone shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80" alt="Property" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <span class="text-darkoak font-medium text-lg block mb-1">$1,250,000</span>
+                        <h3 class="font-normal text-xl mb-2 text-charcoal">Sunset Harbor Estate</h3>
+                        <p class="text-charcoal/60 text-xs tracking-wide mb-6">5 Beds • 4 Baths • 4,100 Sq Ft</p>
+                        <a href="#contact" class="block text-center bg-warmcard text-darkoak border border-sandstone py-2.5 rounded-sm text-xs uppercase tracking-widest font-medium hover:bg-darkoak hover:text-white transition">Schedule a Tour</a>
+                    </div>
+                </div>
+
+                <!-- Listing 3 -->
+                <div class="bg-cream rounded-sm overflow-hidden border border-sandstone shadow-sm hover:shadow-md transition">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=600&q=80" alt="Property" class="h-56 w-full object-cover">
+                    <div class="p-6">
+                        <span class="text-darkoak font-medium text-lg block mb-1">$620,000</span>
+                        <h3 class="font-normal text-xl mb-2 text-charcoal">Minimalist Garden Villa</h3>
+                        <p class="text-charcoal/60 text-xs tracking-wide mb-6">3 Beds • 2.5 Baths • 2,000 Sq Ft</p>
+                        <a href="#contact" class="block text-center bg-warmcard text-darkoak border border-sandstone py-2.5 rounded-sm text-xs uppercase tracking-widest font-medium hover:bg-darkoak hover:text-white transition">Schedule a Tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-24 px-6 max-w-3xl mx-auto">
+        <div class="bg-warmcard p-8 md:p-12 rounded-sm border border-sandstone shadow-sm">
+            <div class="text-center mb-10">
+                <span class="text-xs uppercase tracking-[0.2em] text-darkoak font-semibold mb-2 block">Connect</span>
+                <h2 class="text-3xl font-light mb-2 text-charcoal">Let’s Start a Conversation</h2>
+                <p class="text-charcoal/60 font-light text-sm">Ready to buy, sell, or discuss your next property move? Send a note below.</p>
+            </div>
+            <form action="https://formspree.io/f/your-form-id" method="POST" class="space-y-4">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <input type="text" name="name" placeholder="Your Name" required class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition">
+                    <input type="email" name="email" placeholder="Your Email" required class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition">
+                </div>
+                <input type="text" name="phone" placeholder="Phone Number" class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition">
+                <textarea name="message" rows="4" placeholder="How can I assist you?" class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition"></textarea>
+                <button type="submit" class="w-full bg-darkoak hover:bg-oak text-white text-xs uppercase tracking-widest font-medium py-4 rounded-sm transition shadow-sm">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warmcard text-charcoal/60 py-10 px-6 text-center text-xs tracking-widest border-t border-sandstone">
+        <p>&copy; 2026 MARICHEL HELLYER REAL ESTATE. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
