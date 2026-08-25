@@ -51,14 +51,14 @@
         </div>
     </section>
 
-    <!-- About Section with Full-Length Portrait -->
+    <!-- About Section -->
     <section id="about" class="py-24 px-6 max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div class="relative">
             <!-- Decorative subtle wood-tone border frame -->
             <div class="absolute -inset-2 bg-sandstone/50 rounded-lg -z-10 transform -rotate-1"></div>
             
-            <!-- Agent Photo with 9:16 / Portrait aspect ratio height -->
-            <img src="Marichel (1).jfif" alt="Marichel Hellyer" class="rounded-lg shadow-sm object-cover object-top h-[600px] w-full">
+            <!-- Agent Photo -->
+            <img src="Mhellyer.jpeg" alt="Marichel Hellyer" class="rounded-lg shadow-sm object-cover object-center h-[480px] w-full">
         </div>
         <div>
             <span class="text-xs uppercase tracking-[0.2em] text-darkoak font-semibold mb-2 block">The Agent</span>
@@ -124,7 +124,7 @@
         </div>
     </section>
 
-    <!-- Contact Form Section -->
+    <!-- Contact Form Section with US Compliance Checkbox -->
     <section id="contact" class="py-24 px-6 max-w-3xl mx-auto">
         <div class="bg-warmcard p-8 md:p-12 rounded-sm border border-sandstone shadow-sm">
             <div class="text-center mb-10">
@@ -139,7 +139,16 @@
                 </div>
                 <input type="text" name="phone" placeholder="Phone Number" class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition">
                 <textarea name="message" rows="4" placeholder="How can I assist you?" class="w-full p-3.5 bg-cream border border-sandstone rounded-sm text-sm focus:outline-none focus:border-darkoak transition"></textarea>
-                <button type="submit" class="w-full bg-darkoak hover:bg-oak text-white text-xs uppercase tracking-widest font-medium py-4 rounded-sm transition shadow-sm">Send Inquiry</button>
+                
+                <!-- US Compliance Checkbox (A2P 10DLC / SMS Consent) -->
+                <div class="flex items-start space-x-3 pt-2">
+                    <input type="checkbox" id="sms_consent" name="sms_consent" required class="mt-1 h-4 w-4 rounded border-sandstone text-darkoak focus:ring-darkoak">
+                    <label for="sms_consent" class="text-xs text-charcoal/70 leading-relaxed">
+                        By checking this box, you agree to receive recurring automated promotional and personalized marketing text messages (e.g., property alerts, tour reminders) from Marichel Hellyer Real Estate at the cell number provided. Consent is not a condition of any purchase. Reply STOP to cancel, HELP for help. Msg & data rates may apply. View our Privacy Policy and Terms of Service.
+                    </label>
+                </div>
+
+                <button type="submit" class="w-full bg-darkoak hover:bg-oak text-white text-xs uppercase tracking-widest font-medium py-4 rounded-sm transition shadow-sm mt-4">Send Inquiry</button>
             </form>
         </div>
     </section>
